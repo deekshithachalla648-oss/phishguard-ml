@@ -1,0 +1,6 @@
+{
+  "name": "PhishGuard – Phishing Message Detection System",
+  "description": "Machine learning-based email and SMS phishing detection system featuring TF-IDF vectorization, Logistic Regression classification, rule-based indicators, and educational methodology explorer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

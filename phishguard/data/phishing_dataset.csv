@@ -1,0 +1,31 @@
+text,label
+"URGENT: Your bank account will be suspended within 24 hours. Verify your password now: http://bit.ly/bank-auth",1
+"CHASE-ALERT: Unusual transaction of $842.19 detected. Click here immediately to confirm identity: http://192.168.1.1/login",1
+"Dear Customer, your Netflix membership was cancelled due to billing failure. Re-activate at http://netflix-billing-update.xyz",1
+"Your Office365 password expires in 2 hours. Keep your password by logging into http://portal-office365-verify.top",1
+"USPS Alert: Package 99281-US could not be delivered. Pay $1.99 redelivery fee within 12 hours: http://tinyurl.com/usps-fees",1
+"Congratulations! You won $500,000 in our international lottery. Send your SSN and bank details to claim your prize.",1
+"Security Alert: Unauthorized login attempt from Russia on your crypto wallet. Restore access: http://wallet-secure-auth.cam",1
+"Final Notice: IRS tax refund of $1,420 is pending approval. Confirm your personal details to receive direct deposit.",1
+"PayPal: You authorized a payment of $499.00 to Apple Store. If not you, cancel immediately: http://bit.ly/paypal-dispute",1
+"Immediate action required: Suspicious sign-in detected on your Google Account. Verify your credentials to avoid lockout.",1
+"HR Dept: Review attached salary revision spreadsheet. Login with your corporate credentials to view: http://corp-auth.xyz",1
+"Amazon alert: Your order #402-9912 was placed for $899. If unauthorized, click here to cancel: http://amazon-dispute.click",1
+"Your debit card has been locked due to multiple invalid PIN entries. Unlock card at http://secure-bank-unlock.work",1
+"Dear employee, our email server is undergoing maintenance. Verify your password to maintain mailbox storage.",1
+"Wells Fargo: We detected suspicious wire activity. Please confirm your account number and security code at http://wf-auth.top",1
+"Hey Professor Miller, will you be available during office hours today to discuss the Dijkstra algorithm assignment?",0
+"Hi team, I just opened a pull request on the repository with the unit tests for the machine learning pipeline.",0
+"The CS204 lecture slides and lab 3 exercises have been uploaded to the university portal. Due Friday 11:59 PM.",0
+"Hey! Are we still meeting for lunch at the campus library cafe after the database systems lecture?",0
+"Thank you for your order #88492. Introduction to Algorithms 4th Edition has been packed and scheduled for delivery.",0
+"Reminder: The weekly software engineering sync meeting is scheduled for tomorrow at 10:00 AM in Conference Room B.",0
+"Hi Sarah, could you please send me the notes from yesterday's operating systems class? I missed the discussion on semaphores.",0
+"Your GitHub security digest: No vulnerabilities detected in your 4 tracked repositories for the week of October 12.",0
+"Thanks for reviewing my code changes. I addressed your comments regarding exception handling and pushed the new commit.",0
+"Attached is the draft of our group project presentation slides. Let me know what you think before we present on Thursday.",0
+"Hi everyone, the campus library will close early at 8:00 PM this evening for maintenance.",0
+"Order confirmation: Your subscription to Computer Science Journal has been renewed for the upcoming academic year.",0
+"Hey Alex, do you want to study for the upcoming discrete mathematics midterm together this weekend?",0
+"Your flight reservation to San Francisco is confirmed. Airline confirmation code: XF982K. Safe travels!",0
+"Hi Mom, I arrived safely on campus. Heading to the computer lab now to finish my data structures project.",0

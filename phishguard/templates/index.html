@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhishGuard – Phishing Message Detection System</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo-icon">🛡️</div>
+        <div>
+          <h1>PhishGuard</h1>
+          <p class="tagline">Machine Learning Phishing Detection System</p>
+        </div>
+      </div>
+      <div class="status-badge" id="modelStatusBadge">
+        <span class="pulse-dot"></span> Backend Online
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="hero-card">
+        <h2>Detect Suspicious Messages Before You Trust Them</h2>
+        <p>Phishing is a social engineering attack where fraudsters impersonate trusted institutions to steal passwords, financial credentials, or identity documents.</p>
+        <div class="disclaimer-callout">
+          <strong>⚠️ Security Notice:</strong> Machine learning predictions can make mistakes. A "Likely Legitimate" result is never a guarantee of safety. Always verify unusual requests via known out-of-band channels.
+        </div>
+      </section>
+
+      <section class="analyzer-card">
+        <div class="card-header">
+          <h3>Analyze Email or SMS Message</h3>
+          <span class="char-count" id="charCount">0 characters</span>
+        </div>
+        <textarea id="messageInput" placeholder="Paste suspected email body, SMS text, or alert message here..." rows="7"></textarea>
+
+        <div class="button-bar">
+          <div class="sample-pills">
+            <span>Test Samples:</span>
+            <button type="button" class="pill-btn" onclick="loadSample('bank')">Bank Urgency</button>
+            <button type="button" class="pill-btn" onclick="loadSample('delivery')">Delivery Scam</button>
+            <button type="button" class="pill-btn" onclick="loadSample('academic')">Legitimate Campus</button>
+          </div>
+          <div class="actions">
+            <button id="clearBtn" class="btn-secondary" onclick="clearInput()">Clear</button>
+            <button id="analyzeBtn" class="btn-primary" onclick="submitAnalysis()">Analyze Message</button>
+          </div>
+        </div>
+
+        <div id="loadingIndicator" class="loading hidden">
+          <div class="spinner"></div>
+          <span>Preprocessing text, calculating TF-IDF vectors, and evaluating classifier...</span>
+        </div>
+
+        <div id="errorAlert" class="error-alert hidden"></div>
+
+        <div id="resultContainer" class="result-box hidden">
+          <div class="result-header">
+            <div>
+              <span class="prediction-tag" id="predictionTag">Prediction</span>
+              <h4 id="predictionHeading">Analysis Verdict</h4>
+            </div>
+            <div class="score-display">
+              <span class="score-number" id="confidenceScore">0%</span>
+              <span class="score-label">Model Confidence</span>
+            </div>
+          </div>
+
+          <div class="indicators-section">
+            <h5>Transparent Warning Indicators</h5>
+            <div id="indicatorsList" class="indicators-list"></div>
+          </div>
+
+          <div class="disclaimer-box" id="resultDisclaimer"></div>
+
+          <button class="btn-secondary" onclick="resetForm()">Analyze Another Message</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>PhishGuard • Computer Science & Engineering Undergraduate Machine Learning Project</p>
+    </footer>
+  </div>
+  <script src="/static/js/script.js"></script>
+</body>
+</html>
